@@ -1,0 +1,224 @@
+*:not(.fa) {
+	font-family: 'Brown', sans-serif;
+	background-color: #fffefc;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.center-text {
+	text-align: center;
+}
+
+/*---------------- Nav Bar ----------------*/
+nav {
+	border-bottom: 2px solid black;
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.nav-logo {
+	float: left;
+	margin-left: 10px;
+	width: 75%;
+}
+
+.nav-logo:hover {
+	opacity: 0.7;
+}
+
+.nav-right {
+	float: right;
+}
+
+.nav-right a {
+	padding: 30px 16px 30px;
+}
+
+.nav-right a:hover {
+	background-color: #6f8ead;
+	color: #fffefc;
+}
+
+.nav-right a.active {
+	background-color: #6f8ead;
+	color: #fffefc;
+}
+
+/*--------------- Home Page ---------------*/
+.home-img {
+	position: relative;
+	text-align: center;
+	color: #fffefc;
+}
+
+.home-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -90%);
+	background-color: transparent;
+}
+
+.about-text {
+	margin: 20px;
+}
+
+/*------------- Gallery Page --------------*/
+.float-left {
+	float: left;
+	margin-left: 120px;
+}
+
+.george-gif {
+	width: 200px;
+	margin-left: 120px;
+	margin-top: 20px;
+	border: 5px solid #555;
+}
+
+.gallery-head {
+	margin-left: 50px
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+.imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #fffefc;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #fffefc;
+  background-color: transparent;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*------------- Bespoke Page --------------*/
+.video-Wrapper {
+	position: relative;
+	padding-bottom: 60%;
+  	padding-top: 25px;
+	height: 0;
+}
+
+.video-Wrapper iframe {
+	position: absolute;
+	right: 0; left: 0;
+    margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*------------- Contact Page --------------*/
+.button-color {
+	background-color: #6f8ead;
+}
+
+.form-color {
+	background-color: white;
+}
+
+/*---------------- Footer -----------------*/
+footer {
+	border-top: 2px solid black;
+	overflow: hidden;
+	padding: 0px 10px 10px 10px;
+	max-width: 100%;
+	bottom: 0;
+}
+
+footer div {
+	float: left;
+	text-decoration: none;
+}
+
+.footer-text {
+	font-size: 12px;
+}
+
+.footer-right {
+	float: right;
+	padding-top: 15px;
+}
+
+.footer-logo {
+	width: 75%;
+}
+
+/*Social Media*/
+.fa {
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 30px;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-instagram {
+	background: #a13590;
+	color: white;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
